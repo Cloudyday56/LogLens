@@ -1,0 +1,4 @@
+2026-03-01 10:00:00,123 INFO  [main] org.acme.Server:42 - Server listening on 0.0.0.0:9000
+2026-03-01 10:00:01,456 WARN  [pool-1-thread-3] org.acme.Cache:88 - Eviction took 812 ms
+2026-03-02T09:30:00.000+0100 [ERROR] org.acme.Server - Request 0x7fa3 failed: java.lang.IllegalStateException: stream closed
+[2026-03-02 09:31:00] FATAL - disk full

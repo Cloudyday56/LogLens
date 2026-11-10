@@ -1,0 +1,9 @@
+Nov 10, 2026 9:15:02 AM com.example.Billing charge
+INFO: Charged invoice 1001
+Nov 10, 2026 9:15:04 AM com.example.Billing charge
+SEVERE: Charge failed for invoice 1002
+java.lang.RuntimeException: gateway down
+	at com.example.Billing.charge(Billing.java:30)
+Nov 10, 2026 9:15:09 PM com.example.Billing retry
+WARNING: Retrying invoice 1002
+10-Nov-2026 21:15:10.250 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1234] milliseconds

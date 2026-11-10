@@ -1,0 +1,6 @@
+[INFO] Scanning for projects...
+[WARNING] Using platform encoding
+[ERROR] Failed to execute goal: compilation failure
+just some text
+Exception in thread "main" java.lang.NullPointerException: boom
+	at Foo.main(Foo.java:3)

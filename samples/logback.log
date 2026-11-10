@@ -1,0 +1,11 @@
+14:02:11.120 [main] INFO  com.example.App - Application starting
+14:02:11.640 [main] DEBUG com.example.config.Loader - Loaded 14 properties
+14:02:12.001 [worker-1] WARN  com.example.jobs.Mailer - SMTP retry 1 of 3 for message 8812
+14:02:12.950 [worker-2] ERROR com.example.jobs.Mailer - Could not send message 8813
+javax.mail.MessagingException: Could not connect to SMTP host: mail.example.com, port: 25
+	at com.sun.mail.smtp.SMTPTransport.openServer(SMTPTransport.java:2209)
+	at com.example.jobs.Mailer.send(Mailer.java:64)
+Caused by: java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.Net.connect0(Native Method)
+	... 12 more
+14:02:13.300 [worker-1] INFO  com.example.jobs.Mailer - Sent message 8812
